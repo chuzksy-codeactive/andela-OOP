@@ -1,4 +1,4 @@
-const Employee = require("../classes/employee");
+const Employee = require("./employee");
 
 // HourlyEmployee class extends class Employee.
 class HourlyEmployee extends Employee {

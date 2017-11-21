@@ -1,3 +1,4 @@
 Employee class => Super class
-HourlyEmployee class => Sub class
-SalaryEmploye class => Sublclass
+HourlyEmployee class => Subclass
+SalaryEmployee class => Sublclass
+CommissionEmployee class => Subclass

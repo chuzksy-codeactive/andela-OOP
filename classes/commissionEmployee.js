@@ -1,4 +1,4 @@
-const Employee = require("../classes/employee");
+const Employee = require("./employee");
 class CommissionEmployee extends Employee {
     constructor(firstName, lastName, ssn, sales = 0.0, rate = 0.0) {
         super(firstName, lastName, ssn);
