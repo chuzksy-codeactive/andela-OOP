@@ -1,5 +1,5 @@
 const EmployeeDataService = require("./data-service/employee-data-service");
-const employeeData = require("./data-service/employees-data");
+const employeeData = require("./data-service/employee-data");
 
 let dataService = new EmployeeDataService();
 let employeesinfo = dataService.loadEmployees(employeeData);
