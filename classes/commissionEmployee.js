@@ -11,7 +11,7 @@ class CommissionEmployee extends Employee {
 
     setCommissionRate(value) {
         if (value >= 0.0) {
-            this._rate = value;
+            return this._rate = value;
         } else {
             throw "Sales must be >= 0.0";
         }
@@ -23,7 +23,7 @@ class CommissionEmployee extends Employee {
 
     setGrossSales(value) {
         if (value >= 0.0) {
-            this.sales = value;
+            return this.sales = value;
         } else {
             throw "Sales must be >= 0.0";
         }

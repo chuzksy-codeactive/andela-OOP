@@ -1,0 +1,23 @@
+{
+  "name": "andela-oop",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuzksy-codeactive/andela-OOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuzksy-codeactive/andela-OOP/issues"
+  },
+  "homepage": "https://github.com/chuzksy-codeactive/andela-OOP#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
+  }
+}

@@ -1,4 +1,4 @@
-const Employee = require(".employee");
+const Employee = require("./employee");
 
 //SalaryEmployee class extends class Employee.
 class SalaryEmployee extends Employee {
@@ -10,13 +10,13 @@ class SalaryEmployee extends Employee {
         return this._salary;
     }
     setWeeklySalary(value) {
-        if (value >= 0.0) this._salary = value;
-        else throw "Salary must be >= 0.0";
+        if (value >= 0.0) {return this._salary = value;}
+        else {throw "Salary must be >= 0.0";}
     }
 
     // Overriding the earning method in the super class
     earnings() {
-        return this.weeklySalary();
+        return this.getWeeklySalary();
     }
 
     // toString method used with different signature - polymorphism
@@ -24,7 +24,7 @@ class SalaryEmployee extends Employee {
         return `
             ${"Salaried Employee".toUpperCase()}
             Employee Information: ${super.toString()}
-            ${"Salary Info".toUpperCase()}
+            ${"Salary Information".toUpperCase()}
                 Weekly Salary: ${this.getWeeklySalary()}
         `;
     }

@@ -27,7 +27,7 @@ class Employee {
         this._socialSecurityNumber = value;
     }
 
-    /*Return string representation of Employee object*/
+    /* Return string representation of Employee object*/
     /* Overrideing object.toString */
     toString() {
         return `
